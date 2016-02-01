@@ -1,0 +1,634 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"swi",
+				"switchCity"
+			],
+			[
+				"webkit",
+				"webkitRequestFullscreen"
+			],
+			[
+				"scroll",
+				"scrollWheelZoom"
+			],
+			[
+				"sear",
+				"searchFormDiv"
+			],
+			[
+				"target",
+				"targetElm"
+			],
+			[
+				"doutor",
+				"doutorArr"
+			],
+			[
+				"buffer",
+				"bufferLayer"
+			],
+			[
+				"sho",
+				"shop_r.png	w:512 h:512"
+			],
+			[
+				"tes",
+				"testpoint.geojson"
+			],
+			[
+				"til",
+				"tilePath"
+			],
+			[
+				"circl",
+				"circles"
+			],
+			[
+				"subL",
+				"sublayer"
+			],
+			[
+				"viz",
+				"vizjson"
+			],
+			[
+				"ct",
+				"ctrl2"
+			],
+			[
+				"ma",
+				"marker_green.png	w:48 h:48"
+			],
+			[
+				"balloo",
+				"balloonGeoJson"
+			],
+			[
+				"buffe",
+				"bufferLayer"
+			],
+			[
+				"buff",
+				"bufferLayer"
+			],
+			[
+				"turf",
+				"turfGeoJson"
+			],
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"prop",
+				"properties	(shop.js)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pop",
+				"popupContents"
+			],
+			[
+				"getS",
+				"getSouthWest"
+			],
+			[
+				"cityPo",
+				"cityPolygon"
+			],
+			[
+				"refre",
+				"refreshPointData"
+			],
+			[
+				"getC",
+				"getCitySummary"
+			],
+			[
+				"Map",
+				"MapState"
+			],
+			[
+				"refres",
+				"refreshMap"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"min",
+				"min_lon"
+			],
+			[
+				"max_",
+				"max_lat"
+			],
+			[
+				"getShop",
+				"getShopData"
+			],
+			[
+				"init",
+				"initSeireiSummary"
+			],
+			[
+				"poly",
+				"polyColor"
+			],
+			[
+				"dis",
+				"disableLoading"
+			],
+			[
+				"leafl",
+				"leaflet-omnivore"
+			],
+			[
+				"city",
+				"cityPolygon"
+			],
+			[
+				"refresh",
+				"refreshPointData"
+			],
+			[
+				"point",
+				"pointGroup"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config.rb",
+			"settings":
+			{
+				"buffer_size": 49,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"conflict",
+				"FindKeyConflicts: Command Search"
+			],
+			[
+				"findke",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"git",
+				"Git: Diff All"
+			],
+			[
+				"fetc",
+				"Fetch: Package"
+			],
+			[
+				"keymap",
+				"Keymaps: Cheat Sheet"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 118.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/yuma/Documents/dev/CellaronRails/app/assets/javascripts/pj.js",
+		"/Users/yuma/Documents/dev/CellaronRails/app/views/location_analytics/index.html.erb",
+		"/Users/yuma/Documents/dev/CellaronRails/app/assets/stylesheets/leaflet.fullscreen.css",
+		"/Users/yuma/Documents/dev/CellaronRails/app/assets/javascripts/Leaflet.fullscreen.min.js",
+		"/Users/yuma/Documents/dev/CellaronRails/app/assets/stylesheets/location_analytics/common/location_analytics.css",
+		"/Users/yuma/Documents/dev/CellaronRails/app/assets/javascripts/location_analytics/gmo/map.js",
+		"/Users/yuma/Documents/dev/CellaronRails/config/database.yml",
+		"/Users/yuma/Documents/dev/CellaronRails/config/database_.yml",
+		"/Users/yuma/Documents/dev/CellaronRails/config/database のコピー.yml",
+		"/Users/yuma/Documents/dev/CellaronRails/db/schema.rb",
+		"/Users/yuma/Documents/dev/CellaronRails/db/seeds.rb",
+		"/Users/yuma/Documents/dev/CellaronRails/db/structure.sql",
+		"/Users/yuma/Documents/dev/CellaronRails/db/migrate/20140717021313_create_customers.rb",
+		"/Applications/MAMP/htdocs/d3/doutor.json",
+		"/Applications/MAMP/htdocs/d3/genzai.geojson",
+		"/Applications/MAMP/htdocs/d3/gpsdata.geojson",
+		"/Applications/MAMP/htdocs/d3/div3.html",
+		"/Applications/MAMP/htdocs/d3/data.html",
+		"/Applications/MAMP/htdocs/d3/svg.html",
+		"/Applications/MAMP/htdocs/d3/barchart.html",
+		"/Applications/MAMP/htdocs/d3/scatterplot3.html",
+		"/Applications/MAMP/htdocs/d3/selection3.html",
+		"/Applications/MAMP/htdocs/cartodb/01_createvis.html",
+		"/Applications/MAMP/htdocs/cartodb/createlayer.html",
+		"/Applications/MAMP/htdocs/cartodb/viz.json",
+		"/Applications/MAMP/htdocs/cartodb/index.html",
+		"/Applications/MAMP/htdocs/cartodb/script.js",
+		"/Applications/MAMP/htdocs/cartodb/mapconfig.json",
+		"/Applications/MAMP/htdocs/cartodb/api.html",
+		"/Applications/MAMP/htdocs/cartodb/node_modules/gulp-autoprefixer/node_modules/postcss/lib/lazy-result.js",
+		"/Applications/MAMP/htdocs/cartodb/node_modules/gulp-autoprefixer/package.json",
+		"/Users/yuma/.Rprofile",
+		"/Applications/MAMP/htdocs/expo_sample/gpsdata.js",
+		"/Applications/MAMP/htdocs/expo_sample/gps.js",
+		"/Applications/MAMP/htdocs/expo_sample/index.html",
+		"/Applications/MAMP/htdocs/expo_sample/style.css",
+		"/Applications/MAMP/htdocs/expo_sample/script.js",
+		"/Applications/MAMP/htdocs/expo_sample/shop.js",
+		"/Users/yuma/Downloads/document.json",
+		"/Users/yuma/Downloads/document.txt",
+		"/Applications/MAMP/htdocs/expo_sample/jquery/jquery.min.js",
+		"/Users/yuma/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Applications/MAMP/htdocs/mdl/index.html",
+		"/Users/yuma/Documents/dev/node/hello2/example.js",
+		"/Users/yuma/Documents/dev/node/hello2/01.js",
+		"/Users/yuma/Documents/dev/node/hello2/aaa.txt",
+		"/Users/yuma/Documents/dev/node/hello2/02.ja",
+		"/Users/yuma/Documents/dev/node/sample.js",
+		"/Users/yuma/Documents/dev/node/procfile",
+		"/Users/yuma/Documents/dev/node/package.json",
+		"/Users/yuma/Documents/dev/CellaronRails_0917/app/assets/javascripts/location_analytics/common/map.js",
+		"/Users/yuma/Documents/dev/CellaronRails_0917/app/views/location_analytics/index.html.erb",
+		"/Users/yuma/Documents/dev/CellaronRails_vmgithub/config/database.yml",
+		"/Users/yuma/Documents/dev/CellaronRails/app/assets/javascripts/location_analytics/common/map.js",
+		"/Users/yuma/Documents/dev/CellaronRails/app/assets/javascripts/report/shop.js",
+		"/Users/yuma/Documents/dev/CellaronRails/app/controllers/concerns/services/environment_service.rb",
+		"/Users/yuma/Documents/dev/CellaronRails/app/views/layouts/location_analytics.html.erb",
+		"/Users/yuma/Documents/dev/CellaronRails/app/assets/javascripts/location_analytics/gmo/location_analytics.js",
+		"/Users/yuma/Documents/dev/CellaronRails/app/views/location_analytics/gmo.html.erb",
+		"/Users/yuma/Documents/dev/CellaronRails/public/city_topo.json",
+		"/Users/yuma/Documents/dev/CellaronRails/app/controllers/location_analytics_controller.rb",
+		"/Users/yuma/Documents/dev/CellaronRails/app/controllers/concerns/services/location_analytics_service.rb",
+		"/Users/yuma/Documents/dev/CellaronRails/public/pref_topo.json",
+		"/Users/yuma/Documents/dev/CellaronRails/app/assets/images/shop_on.png",
+		"/Users/yuma/Documents/dev/CellaronRails/app/helpers/location_analytics_helper.rb",
+		"/Users/yuma/Documents/dev/CellaronRails/app/views/layouts/_header.html.erb",
+		"/Users/yuma/Documents/dev/CellaronRails/app/assets/javascripts/location_analytics/common/location_analytics.js",
+		"/Users/yuma/Documents/dev/CellaronRails_old/config/database.yml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"addLayer",
+			"removeLayer",
+			"getprefsummary",
+			"redraw",
+			"_reset",
+			"remove",
+			"cityPolygon",
+			"dataLayers",
+			"getCitySummary",
+			"switchCity",
+			"getCitySummary",
+			"enable",
+			"lightBox_shopList",
+			"enable",
+			"disable",
+			"map.",
+			"map",
+			"poi_searchWrapper",
+			"poiSearch",
+			"stationSearch",
+			"loading",
+			"isfull",
+			"shopLIst",
+			"index",
+			"-webkit-full-screen",
+			"full-screen",
+			"2147483647",
+			"21474",
+			"fullscreen",
+			"makeShopList",
+			"lightBox_shopList",
+			"json",
+			"circle",
+			"grayMap",
+			"gray",
+			"filter",
+			"$(function(){\n	var dataset = [5, 10, 15, 20, 25];\n\n	d3.select('body').selectAll('p')\n		.data(dataset)\n		.enter()\n		.append('p')\n		.text(function(d){\n			return d;\n		});\n});",
+			"sublayer0Shown",
+			"poi_",
+			"poi_searchWrapper",
+			"leaflet-omnivore.min",
+			"Promise",
+			"p",
+			"64",
+			"span",
+			"bufferLayer",
+			"300",
+			"\"([0-9]*)\"",
+			"([0-9]*)",
+			"\"([0-9]*)\"",
+			"\"[0-9]*\"",
+			"6983753",
+			",\"",
+			"\"lat\"",
+			"6983753",
+			"\"lat\"",
+			"span",
+			"turfGeoJson",
+			"p",
+			"h1",
+			"layer",
+			"line",
+			"RIGHT",
+			"path",
+			"data",
+			"setCity",
+			"cityPolySetPopup",
+			"bindPopup",
+			"city",
+			"Json",
+			"city",
+			"getCitySummary",
+			"city",
+			"	// popupContents += l.feature.properties.cityname_k;\n	// if (citySummary[l.feature.properties.adm_code] !== null && typeof citySummary[l.feature.properties.adm_code] !== 'undefined') {\n	// 	popupContents += '<br>' + '位置取得数：' + citySummary[l.feature.properties.adm_code].count;\n	// }",
+			"polygons[j]",
+			"getCitySummary",
+			"bindPopup",
+			"\n				",
+			"\n					",
+			"{\n						opacity: 0,\n						fillOpacity: 0,\n						clickable: false\n					}",
+			"{\n							opacity: 0.9,\n							fillOpacity: 0.9,\n							clickable: true\n						}",
+			"{\n						opacity: 0,\n						fillOpacity: 0,\n						clickable: false\n					}",
+			"dragend",
+			"zoomend",
+			"zoomlevelschange",
+			"zoomend",
+			"Path",
+			"_fireMouseEvent",
+			"o.Path.extend",
+			"o.Path.o.Path",
+			"o.Path",
+			"_fireMouseEvent",
+			"extend._fireMouseEvent",
+			"o.Path.o.Path.extend._fireMouseEvent",
+			"mouseEventToContainerPoint",
+			"refreshPointData",
+			"cityPolygon",
+			"prefPolygon",
+			"cityPolygon",
+			"getPointData",
+			"this.state",
+			"state",
+			"zl",
+			"refreshMap",
+			"enableShopIcon",
+			"toggleIcon",
+			"shopGroup",
+			"refreshMap",
+			"shopGroup.",
+			"refreshMap",
+			"centering",
+			"shopListArea",
+			"setShopD",
+			"setShop",
+			"initGraphArea",
+			"240",
+			"360",
+			"graph_area",
+			"stationSearch",
+			"駅名",
+			"toggleIcon",
+			"btn-group",
+			"toggleColor",
+			"searchArea",
+			"/assets",
+			"jquery.",
+			"refreshMap",
+			"refreshPointData"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n\"lat\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config.rb",
+					"settings":
+					{
+						"buffer_size": 49,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 94.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 186.0,
+	"status_bar_visible": true
+}
