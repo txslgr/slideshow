@@ -4,4 +4,4 @@ sass_dir = "scss"
 images_dir = "img"
 javascripts_dir = "js"
 
-output_style = :expanded
+output_style = :compact
