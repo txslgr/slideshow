@@ -36,8 +36,13 @@ function changeNum (cn, ln, no) {
 function changePhoto (no) {
 	var path = './img/photos/photo_';
 	// 写真の入れ替え
-	$('.photo').html('<img src="' + path + no + '.jpg" class="slidePhotos">');
-	// ナビゲーション
-	$('.now').removeClass('now');
-	$('.circle').eq(no - 1).addClass('now');
+	$('.photo').css('opacity', '0');
+	setTimeout(function () {
+		$('.photo').html('<img src="' + path + no + '.jpg" class="slidePhotos">');
+		$('.photo').css('opacity', '1');
+
+		// ナビゲーション
+		$('.now').removeClass('now');
+		$('.circle').eq(no - 1).addClass('now');
+	}, 200);
 }

@@ -134,15 +134,15 @@ a, area, button, input, label, select, textarea, [tabindex] { touch-action: mani
 /* line 13, ../scss/style.scss */
 .slideBody .prev .prevImg, .slideBody .prev .nextImg, .slideBody .next .prevImg, .slideBody .next .nextImg { position: absolute; top: 50%; }
 /* line 19, ../scss/style.scss */
-.slideBody .photo { width: 640px; overflow: hidden; }
-/* line 22, ../scss/style.scss */
+.slideBody .photo { width: 640px; overflow: hidden; -moz-transition: opacity 0.1s linear 0s; -o-transition: opacity 0.1s linear 0s; -webkit-transition: opacity 0.1s linear; -webkit-transition-delay: 0s; transition: opacity 0.1s linear 0s; opacity: 1; }
+/* line 24, ../scss/style.scss */
 .slideBody .photo .slidePhotos { width: 100%; }
 
-/* line 28, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 .circles { display: -webkit-box; display: box; margin: 10px auto; }
-/* line 32, ../scss/style.scss */
+/* line 35, ../scss/style.scss */
 .circles .circle { width: 16px; height: 16px; background-color: #999; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; margin: 0 3px; }
-/* line 38, ../scss/style.scss */
+/* line 41, ../scss/style.scss */
 .circles .circle .ln { display: block; text-indent: -9999px; cursor: pointer; }
-/* line 44, ../scss/style.scss */
+/* line 47, ../scss/style.scss */
 .circles .now { background-color: #333; }

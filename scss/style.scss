@@ -19,9 +19,12 @@
 	.photo {
 		width: 640px;
 		overflow: hidden;
+		@include transition(opacity 0.1s linear 0s);
+		opacity: 1;
 		.slidePhotos {
 			width: 100%;
 		}
+		
 	}
 }
 
