@@ -1,15 +1,16 @@
 @import "compass";
 @import "../import/sanitize.scss";
 
-$wide: 950px;
-$main_color: #333;
-
-#wrap {
+.slideBody {
 	width: 100%;
-	height: 100%;
-	overflow: hidden;
-		#main {
-			width: $wide;
-			margin: auto;
-		}
+	display: -webkit-flex;
+	display: flex;
+	.prev,
+	.next {
+		width: 32px;
+		margin: 0 5px;
+	}
+	.photo {
+		width: 640px;
+	}
 }
