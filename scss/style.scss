@@ -3,14 +3,44 @@
 
 .slideBody {
 	width: 100%;
-	display: -webkit-flex;
-	display: flex;
+	display: -webkit-box;
+	display: box;
 	.prev,
 	.next {
 		width: 32px;
 		margin: 0 5px;
+		position: relative;
+		.prevImg,
+		.nextImg {
+			position: absolute;
+			top: 50%;
+		}
 	}
 	.photo {
 		width: 640px;
+		overflow: hidden;
+		.slidePhotos {
+			width: 100%;
+		}
+	}
+}
+
+.circles {
+	display: -webkit-box;
+	display: box;
+	margin: 10px auto;
+	.circle {
+		width: 16px;
+		height: 16px;
+		background-color: #999;
+		@include border-radius(50%);
+		margin: 0 3px;
+		.ln {
+			display: block;
+			text-indent: -9999px;
+		}
+	}
+	.now {
+		background-color: #333;
 	}
 }

@@ -127,7 +127,22 @@ textarea { resize: vertical; }
 /* line 291, ../import/sanitize.scss */
 a, area, button, input, label, select, textarea, [tabindex] { touch-action: manipulation; }
 
-/* line 7, ../scss/style.scss */
-#wrap { width: 100%; height: 100%; overflow: hidden; }
-/* line 11, ../scss/style.scss */
-#wrap #main { width: 900px; margin: auto; }
+/* line 4, ../scss/style.scss */
+.slideBody { width: 100%; display: -webkit-box; display: box; }
+/* line 8, ../scss/style.scss */
+.slideBody .prev, .slideBody .next { width: 32px; margin: 0 5px; position: relative; }
+/* line 13, ../scss/style.scss */
+.slideBody .prev .prevImg, .slideBody .prev .nextImg, .slideBody .next .prevImg, .slideBody .next .nextImg { position: absolute; top: 50%; }
+/* line 19, ../scss/style.scss */
+.slideBody .photo { width: 640px; overflow: hidden; }
+/* line 22, ../scss/style.scss */
+.slideBody .photo .slidePhotos { width: 100%; }
+
+/* line 28, ../scss/style.scss */
+.circles { display: -webkit-box; display: box; margin: 10px auto; }
+/* line 32, ../scss/style.scss */
+.circles .circle { width: 16px; height: 16px; background-color: #999; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; margin: 0 3px; }
+/* line 38, ../scss/style.scss */
+.circles .circle .ln { display: block; text-indent: -9999px; }
+/* line 43, ../scss/style.scss */
+.circles .now { background-color: #333; }
