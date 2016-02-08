@@ -12,7 +12,6 @@ function init () {
 	$('.prevImg, .nextImg').on('click', function (e) {
 		photoNo = changeNum(e.target.className, photosLength, photoNo);
 		changePhoto(photoNo);
-		console.log(photoNo);
 	});
 
 	$('.circle .ln').on('click', function (e) {
