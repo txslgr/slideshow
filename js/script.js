@@ -14,6 +14,14 @@ function init () {
 		changePhoto(photoNo);
 		console.log(photoNo);
 	});
+
+	$('.circle .ln').on('click', function (e) {
+		var no = Number(e.target.innerHTML);
+		if (no >= 1 && no <= 5) {
+			photoNo = no;
+			changePhoto(no);
+		}
+	});
 }
 
 function changeNum (cn, ln, no) {
