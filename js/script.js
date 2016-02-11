@@ -37,7 +37,11 @@ function changePhoto (no) {
 	// 写真の入れ替え
 	$('.photo').css('opacity', '0');
 	setTimeout(function () {
-		$('.photo').html('<img src="' + path + no + '.jpg" class="slidePhotos">');
+		if ($('.slidePhotos').length === 0) {
+			var elm = $('<img>', {class: 'slidePhotos'});
+			$('.photo').append(elm);
+		}
+		$('.slidePhotos').attr('src', path + no + '.jpg');
 		$('.photo').css('opacity', '1');
 
 		// ナビゲーション
