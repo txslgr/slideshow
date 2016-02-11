@@ -1,24 +1,60 @@
 @import "compass";
 @import "../import/sanitize.scss";
 
+$breakpoint-tab: 980px;
+$breakpoint-smp: 640px;
+$breakpoint-navi: 720px;
+
+@mixin max-screen($bp) {
+	@media screen and (max-width: $bp) {
+		@content;
+	}
+}
+@mixin min-screen($bp) {
+	@media screen and (min-width: $bp) {
+		@content;
+	}
+}
+@mixin screen($bp-min, $bp-max) {
+	@media screen and (min-width: $bp-min) and (max-width: $bp-max) {
+		@content;
+	}
+}
+
+.contents {
+}
+
 .slideBody {
-	width: 100%;
-	display: -webkit-box;
-	display: box;
+	@include min-screen ($breakpoint-smp) {
+		width: 640px;
+	}
+	@include max-screen ($breakpoint-smp) {
+		width: 100%;
+	}
+	// height: 480px;
+	margin: 0 auto;
+	position: relative;
 	.prev,
 	.next {
 		width: 32px;
-		margin: 0 5px;
-		position: relative;
-		.prevImg,
-		.nextImg {
-			position: absolute;
-			top: 50%;
+		position: absolute;
+		top: 50%;
+		cursor: pointer;
+	}
+	.prev {
+		left: -40px;
+		@include max-screen ($breakpoint-navi) {
+			left: 0;
+		}
+	}
+	.next {
+		right: -40px;
+		@include max-screen ($breakpoint-navi) {
+			right: 0;
 		}
 	}
 	.photo {
-		width: 640px;
-		overflow: hidden;
+		width: 100%;
 		@include transition(opacity 0.1s linear 0s);
 		opacity: 1;
 		.slidePhotos {
@@ -31,13 +67,14 @@
 .circles {
 	display: -webkit-box;
 	display: box;
-	margin: 10px auto;
+	margin: 15px auto;
+	width: 130px;
 	.circle {
 		width: 16px;
 		height: 16px;
 		background-color: #999;
 		@include border-radius(50%);
-		margin: 0 3px;
+		margin: 0 5px;
 		.ln {
 			display: block;
 			text-indent: -9999px;

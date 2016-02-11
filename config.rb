@@ -4,4 +4,4 @@ sass_dir = "scss"
 images_dir = "img"
 javascripts_dir = "js"
 
-output_style = :compact
+output_style = :compressed
