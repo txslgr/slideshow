@@ -48,4 +48,13 @@ function changePhoto (no) {
 		$('.now').removeClass('now');
 		$('.circle').eq(no - 1).addClass('now');
 	}, 200);
+	preloadImg(no, path);
+}
+
+function preloadImg (no, path) {
+	var nextNo, prevNo;
+	nextNo = no === 5 ? 1 : (no + 1);
+	prevNo = no === 1 ? 5 : (no - 1);
+	$('<img>').attr('src', path + (nextNo) + '.jpg');
+	$('<img>').attr('src', path + (prevNo) + '.jpg');
 }
