@@ -55,7 +55,7 @@ $breakpoint-navi: 720px;
 	}
 	.photo {
 		width: 100%;
-		@include transition(opacity 0.1s linear 0s);
+		@include transition(opacity 0.05s linear 0s);
 		opacity: 1;
 		.slidePhotos {
 			width: 100%;

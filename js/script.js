@@ -49,5 +49,5 @@ function changePhoto (no) {
 		// ナビゲーション
 		$('.now').removeClass('now');
 		$('.circle').eq(no - 1).addClass('now');
-	}, 200);
+	}, 100);
 }
