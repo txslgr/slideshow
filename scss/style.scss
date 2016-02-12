@@ -76,9 +76,11 @@ $breakpoint-navi: 720px;
 
 .circles {
 	display: -webkit-box;
+	display: flex;
 	display: box;
 	margin: 15px auto;
 	width: 130px;
+	list-style-type: none;
 	.circle {
 		width: 16px;
 		height: 16px;
