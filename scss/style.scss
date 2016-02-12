@@ -30,13 +30,14 @@ $breakpoint-navi: 720px;
 		width: 100%;
 		min-height: 240px;
 	}
-	margin: 0 auto;
+	margin: 15px auto;
 	position: relative;
 	.prev,
 	.next {
 		width: 32px;
 		position: absolute;
 		top: 50%;
+		margin-top: -16px;
 		cursor: pointer;
 	}
 	.prev {
