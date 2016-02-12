@@ -3,17 +3,19 @@ $(function () {
 });
 
 function init () {
-	var photosLength = 5,
-		photoNo = 1;
+	var photosLength = 5,	// 写真枚数
+		photoNo = 1;		// 初期写真番号
 
+	// 写真領域
 	changePhoto(photoNo);
+	// ナビゲーション
 	$('.circle').eq(photoNo - 1).addClass('now');
-
+	// 矢印選択時
 	$('.prevImg, .nextImg').on('click', function (e) {
 		photoNo = changeNum(e.target.className, photosLength, photoNo);
 		changePhoto(photoNo);
 	});
-
+	// ナビゲーション選択時
 	$('.circle .ln').on('click', function (e) {
 		var no = Number(e.target.innerHTML);
 		if (no >= 1 && no <= 5) {
@@ -23,6 +25,7 @@ function init () {
 	});
 }
 
+// 写真番号変更
 function changeNum (cn, ln, no) {
 	if (cn === 'prevImg') {
 		no = no > 1 ? no - 1 : ln;
