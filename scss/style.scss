@@ -21,9 +21,6 @@ $breakpoint-navi: 720px;
 	}
 }
 
-.contents {
-}
-
 .slideBody {
 	@include min-screen ($breakpoint-smp) {
 		width: 640px;
