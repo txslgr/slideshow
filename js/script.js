@@ -36,12 +36,14 @@ function changePhoto (no) {
 	var path = './img/photos/photo_';
 	// 写真の入れ替え
 	$('.photo').css('opacity', '0');
+	$('.loading').css('opacity', '1');
 	setTimeout(function () {
 		if ($('.slidePhotos').length === 0) {
 			var elm = $('<img>', {class: 'slidePhotos'});
 			$('.photo').append(elm);
 			$('.slidePhotos').on('load', function () {
 				$('.photo').css('opacity', '1');
+				$('.loading').css('opacity', '0');
 			});
 		}
 		$('.slidePhotos').attr('src', path + no + '.jpg');
