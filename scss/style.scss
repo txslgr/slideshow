@@ -31,8 +31,8 @@ $breakpoint-navi: 720px;
 	}
 	@include max-screen ($breakpoint-smp) {
 		width: 100%;
+		min-height: 240px;
 	}
-	// height: 480px;
 	margin: 0 auto;
 	position: relative;
 	.prev,
