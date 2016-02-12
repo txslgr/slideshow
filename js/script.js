@@ -46,7 +46,6 @@ function changePhoto (no) {
 		$(imgElm).css('height', h + 'px');
 		if ($(imgElm).length === 0) {
 			var elm = $('<img>', {class: 'slidePhotos'});
-			$(imgElm).css('height', 'auto');
 			$(divElm).append(elm);
 			$(imgElm).on('load', function () {
 				$(loadElm).css('opacity', '0');
@@ -54,6 +53,7 @@ function changePhoto (no) {
 			});
 		}
 		$(imgElm).attr('src', path + no + '.jpg');
+		$(imgElm).removeAttr('style');
 
 		// ナビゲーション
 		$('.now').removeClass('now');
