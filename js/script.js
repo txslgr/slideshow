@@ -36,22 +36,30 @@ function changePhoto (no) {
 	var path = './img/photos/photo_',
 		imgElm = '.slidePhotos',
 		divElm = '.photo',
-		loadElm = '.loading';
-	var h = $(imgElm).height();
-	// 写真の入れ替え
+		loadElm = '.loading',
+		h = $(imgElm).height();
+
+	// 写真領域消す
 	$(divElm).css('opacity', '0');
+	// 再描画
 	setTimeout(function () {
+		// loading表示
 		$(loadElm).css('opacity', '1');
+		// 画像タグ空に
 		$(imgElm).attr('src', '');
+		// 高さは保つ
 		$(imgElm).css('height', h + 'px');
+		// 初期処理
 		if ($(imgElm).length === 0) {
 			var elm = $('<img>', {class: 'slidePhotos'});
 			$(divElm).append(elm);
+			// 画像ロード時 loading決して画像表示
 			$(imgElm).on('load', function () {
 				$(loadElm).css('opacity', '0');
 				$(divElm).css('opacity', '1');
 			});
 		}
+		// 画像タグにパス設定、高さをリセット
 		$(imgElm).attr('src', path + no + '.jpg');
 		$(imgElm).removeAttr('style');
 
