@@ -33,21 +33,27 @@ function changeNum (cn, ln, no) {
 }
 
 function changePhoto (no) {
-	var path = './img/photos/photo_';
+	var path = './img/photos/photo_',
+		imgElm = '.slidePhotos',
+		divElm = '.photo',
+		loadElm = '.loading';
+	var h = $(imgElm).height();
 	// 写真の入れ替え
-	$('.photo').css('opacity', '0');
+	$(divElm).css('opacity', '0');
 	setTimeout(function () {
-		$('.loading').css('opacity', '1');
-		$('.slidePhotos').attr('src', '');
-		if ($('.slidePhotos').length === 0) {
+		$(loadElm).css('opacity', '1');
+		$(imgElm).attr('src', '');
+		$(imgElm).css('height', h + 'px');
+		if ($(imgElm).length === 0) {
 			var elm = $('<img>', {class: 'slidePhotos'});
-			$('.photo').append(elm);
-			$('.slidePhotos').on('load', function () {
-				$('.loading').css('opacity', '0');
-				$('.photo').css('opacity', '1');
+			$(imgElm).css('height', 'auto');
+			$(divElm).append(elm);
+			$(imgElm).on('load', function () {
+				$(loadElm).css('opacity', '0');
+				$(divElm).css('opacity', '1');
 			});
 		}
-		$('.slidePhotos').attr('src', path + no + '.jpg');
+		$(imgElm).attr('src', path + no + '.jpg');
 
 		// ナビゲーション
 		$('.now').removeClass('now');
